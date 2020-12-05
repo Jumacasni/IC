@@ -38,8 +38,8 @@ test_images = test_images / 255
 validation_images = training_images[-12000:]
 validation_labels = training_labels[-12000:]
 
-training_images = training_images[48000:]
-training_labels = training_labels[48000:]
+training_images = training_images[:48000]
+training_labels = training_labels[:48000]
 
 """## ENTRENAMIENTO"""
 
@@ -65,7 +65,7 @@ hist = model.fit(
   training_images,
   to_categorical(training_labels),
   epochs=100,
-  batch_size=32,
+  batch_size=64,
   validation_data=(validation_images,to_categorical(validation_labels)),
   callbacks=[earlyStopping]
 )
@@ -109,4 +109,3 @@ plt.show()
 """## VISUALIZACIÓN DE LA RED"""
 
 tf.keras.utils.plot_model(model, show_shapes=True)
-
