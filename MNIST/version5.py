@@ -54,7 +54,7 @@ model.add(Conv2D(64, kernel_size=(3, 3), activation='relu'))
 model.add(Conv2D(64, kernel_size=(1, 1), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2,2)))
 model.add(Flatten())
-model.add(Dense(128, activation='relu'))
+model.add(Dense(256, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 
 # Se compila el modelo
