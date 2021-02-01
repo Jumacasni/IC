@@ -124,7 +124,6 @@ public class GeneticAlgorithm {
             pickIndividual= population.getIndividual(intRandom);
             // Para evitar que un individuo esté repetido
             while (pickedNumbers.contains(intRandom)){
-                //System.out.println("atrapado en tournamentSelection");
                 intRandom = rnd.nextInt(population.getIndividuals().length);
                 pickIndividual = population.getIndividual(intRandom);
             }
