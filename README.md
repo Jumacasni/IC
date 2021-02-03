@@ -83,6 +83,7 @@ Sistema Experto basado en lógica difusa para el diagnóstico de diabetes
 <a name="practica2m"></a>
 #### Mejor resultado
 
+* **Versión**: Lamarckiana
 * **Tamaño de la población**: 50
 * **Número de iteraciones**: 20
 * **Tamaño del torneo**: 20
