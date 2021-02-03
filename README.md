@@ -4,7 +4,7 @@ Asignatura de Inteligencia Computacional (IC) - Máster Profesional en Ingenier�
 
 <details open="open">
   <summary>Tabla de contenidos</summary>
-  <ol>
+  <ul>
     <li>
       <a href="#teoria">Teoría</a>
     </li>
@@ -25,20 +25,20 @@ Asignatura de Inteligencia Computacional (IC) - Máster Profesional en Ingenier�
           </ul>
       </ul>
     </li>
-  </ol>
+  </ul>
 </details>
 
 <a name="teoria"></a>
-## 1. Teoría
+## Teoría
 
 Sistema Experto basado en lógica difusa para el diagnóstico de diabetes
 * [Documentación](https://github.com/Jumacasni/IC/blob/main/Trabajo/SE_diabetes.pdf)
 
 <a name="practicas"></a>
-## 2. Prácticas
+## Prácticas
 
 <a name="practica1"></a>
-### 2.1 **Redes neuronales: Reconocimiento óptico de caracteres (MNIST)**
+### **Redes neuronales: Reconocimiento óptico de caracteres (MNIST)**
 <a name="practica1d"></a>
 #### Documentación
 
