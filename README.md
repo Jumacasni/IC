@@ -77,9 +77,8 @@ Sistema Experto basado en lógica difusa para el diagnóstico de diabetes
   
 <a name="practica2c"></a>
 #### Código
-  * Código:
-    * [Versión en Python](QAP/Python)
-    * [Versión en Java](QAP/Java)
+  * [Versión en Python](QAP/Python)
+  * [Versión en Java](QAP/Java)
 
 <a name="practica2m"></a>
 #### Mejor resultado
